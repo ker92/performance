@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="fr" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Performance++</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<header>
+    <section class="nav-bar">
+        <div id="A">
+           <a href="index.html"> <img src="image/Capture d'écran 2025-03-26 104942.png" alt="logo" />
+           </a>
+        </div>
+        <div id="B">
+            <div class="menu-item"><a href="index.html"> <h1> Accueil</h1></a></div>
+            <div class="menu-item dropdown-categorie">
+                <h1 onclick="toggleDropdown()">Catégorie</h1>
+                <ul class="dropdown-menu" id="categorieDropdown">
+                    <li onclick="redirigerCategorie('U6')">U6</li>
+                    <li onclick="redirigerCategorie('U18')">U18</li>
+                    <li onclick="redirigerCategorie('Séniors')">Séniors</li>
+                </ul>
+            </div>
+
+            <div class="menu-item"><a href="connexion.php"> <h1>Connexion</h1> </a>
+            </div>
+            <form method="post" action="Abonnement.php">
+                <button class="abonnement" type="submit">
+                    <h1>S'ABONNER</h1>
+                </button>
+            </form>
+        </div>
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+                            </li>
+
+                            <!-- Menu déroulant correctement structuré -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Catégorie
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">U6</a></li>
+                                    <li><a class="dropdown-item" href="#">U18</a></li>
+                                    <li><a class="dropdown-item" href="#">Séniors</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="connexion.php">Connexion</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </section>
+
+</header>
+
+<main>
+
+    <div class="accueil">
+        <div class="AC">
+            <div class="tex">
+                <h1>Séances d'entraînements pour<br>
+                    des jeunes footballeurs ambitieux</h1>
+                <p>Crée ton compte, abonne-toi à ta catégorie<br>
+                    et suis des séances adaptées pour devenir<br>
+                    plus performant dans le monde du football !</p>
+                <a href="Abonnement.php" class="btn-abonnement">
+                    <h1>Abonne-toi</h1>
+                </a>
+            </div>
+            <img class="img" src="image/photo-1.jpg" alt="o">
+        </div>
+
+
+    </div>
+
+    <div class="NE">
+        <h1>
+            Ne perdez plus de temps à préparer vos séances<br>
+            <span>Accédez à nos exercices détaillés et commencez à préparer vos séances sans attendre</span>
+        </h1>
+    </div>
+    <div class="Theme" id="Theme">
+        <img src="image/maxresdefault.jpg" alt="Formation 4-3-3" />
+        <div class="texte-theme">
+            <h1>plusieurs excercices tactiques de qualités</h1>
+            <p>
+                La formation 4-3-3 repose sur une structure équilibrée avec quatre <br>
+                défenseurs, trois milieux de terrain et trois attaquants. Elle est<br>
+                appréciée pour sa capacité à s'adapter à différents styles de jeu,<br>
+                qu’ils soient offensifs ou défensifs. Elle permet un bon contrôle<br>
+                du milieu de terrain tout en offrant de la largeur en attaque.
+            </p>
+        </div>
+    </div>
+    <div class="Jeux-réduits" id="Jeux-réduits">
+        <img src="image/jeux-reduits-12.png" alt="jeux-réduits"/>
+
+        <div class="texte-jeux-réduits">
+            <h1>Jeux réduits pour développer l’intelligence de jeu</h1>
+            <p>
+                Les jeux réduits sont des situations d'entraînement où l'on réduit l’espace et<br>
+                le nombre de joueurs afin de favoriser la prise de décision, la rapidité<br>
+                d’exécution et l'intensité. Ils permettent de travailler efficacement la tactique,<br>
+                la technique et le physique dans un contexte proche du match réel.<br>
+                Adaptés à tous les niveaux, ils stimulent la créativité et la communication<br>
+                entre les joueurs, tout en rendant les séances dynamiques et engageantes.
+            </p>
+
+        </div>
+    </div>
+
+    <div class="Travail-de-groupe" id="Travail-de-groupe">
+        <h1>Travail de groupe, renforcement musculaire</h1>
+
+        <img src="image/OIP.jpg" alt="groupe" />
+
+        <p>
+            Le travail de groupe est au cœur de la réussite d’une équipe. En développant des exercices collectifs, les joueurs apprennent à synchroniser leurs mouvements, à prendre des décisions rapides ensemble et à renforcer leur communication sur le terrain. Ce type d'entraînement met l'accent sur l’importance de la cohésion et de la fluidité des actions, permettant à l'équipe de se déplacer en bloc et de réagir collectivement dans toutes les situations de match.
+            <br><br>
+            En parallèle, le renforcement musculaire est intégré pour garantir que chaque joueur soit prêt à affronter la demande physique d'un match. Il s’agit d’exercices ciblés qui non seulement améliorent la condition physique individuelle, mais aussi la capacité à tenir dans des situations de pression. Ainsi, le travail de groupe, couplé à un entraînement musculaire adapté, crée un environnement propice à l'amélioration des performances collectives et individuelles. Ce processus permet de solidifier l'esprit d’équipe tout en favorisant l’endurance et la force des joueurs dans les moments décisifs du match.
+
+        </p>
+    </div>
+
+    <div class="jeu-offensif">
+        <h1>Développez un jeu offensif percutant et intelligent grâce à nos séances ciblées</h1>
+
+
+        <img src="image/Capture d'écran 2025-04-17 092135.png" alt="offensif"/>
+        <p>
+            Boostez l’impact de vos séances avec des exercices de groupe conçus pour créer une vraie cohésion sur le terrain.<br>
+            Nos contenus vous offrent des situations concrètes, inspirées du haut niveau, pour apprendre à jouer en équipe,<br>
+            développer l’intelligence collective et améliorer la réactivité tactique. Grâce à notre approche, vos joueurs<br>
+            progresseront ensemble, plus vite, et avec une vraie vision du jeu. Découvrez une méthode complète, efficace<br>
+            et simple à intégrer à vos entraînements — directement depuis notre plateforme.
+        </p>
+
+    </div>
+
+    <div class="jeu-defensif">
+        <h1>Travail de groupe pour renforcer la cohésion et la coordination</h1>
+        <img src="image/afp_fr_7a17bdb63d07277ed7a4e1e13c6190e56b715224.jpg" alt="defensif"/>
+        <p>
+            Le travail de groupe est essentiel pour développer la compréhension collective du jeu.<br>
+            À travers des exercices collaboratifs, les joueurs apprennent à communiquer efficacement,<br>
+            à se déplacer en bloc et à enchaîner des actions coordonnées. Ce type de travail<br>
+            renforce la confiance entre les coéquipiers, améliore la répartition des rôles<br>
+            sur le terrain et favorise un esprit d’équipe solide.<br>
+            Il prépare les joueurs à réagir ensemble face aux différentes situations de match.
+        </p>
+    </div>
+    <h1 class="titre-categorie">Catégorie</h1>
+    <div class="categories" id="cat">
+        <div class="categorie-item">
+           <h1>U6</h1>
+            <img src="image/U6.jpg" alt="U6" />
+        </div>
+        <div class="categorie-item">
+            <h1>U18</h1>
+            <img src="image/U18.jpg" alt="U18" />
+        </div>
+        <div class="categorie-item">
+            <h1>Séniors</h1>
+            <img src="image/Séniors.webp" alt="Séniors" />
+        </div>
+    </div>
+
+
+
+</main>
+</body>
+<footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>Catégorie</h3>
+            <ul>
+                <li><a href="#cat">U6</a></li>
+                <li><a href="#cat">U18</a></li>
+                <li><a href="#cat">Séniors</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Thème</h3>
+            <ul>
+                <li><a href="#Jeux-réduits">Technique</a></li>
+                <li><a href="#Travail-de-groupe">Physique</a></li>
+                <li><a href="#Theme">Tactique</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Légal</h3>
+            <ul>
+                <li><a href="mention.html">Mentions légales</a></li>
+                <li><a href="#">Conditions d'utilisation</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <p class="footer-bottom">© 2025 - Mon site de foot</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-ppbYyCH6A59PybJcHRyP0pftInTCeK5e/4N2hN4bJxt/NM99Up4/BMGbNEHv4b2T" crossorigin="anonymous" defer></script>
+<script src="Script.js" defer></script>
+<script src="https://kit.fontawesome.com/ab09c2f170.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</html>
