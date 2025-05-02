@@ -25,3 +25,13 @@ A
 config/config.php,4\8\484935103bc36a16b65a3b088e83628fc1601be8
 A
 public/index.html,f\4\f43ecdf8d666ee908aacce037b4cd72159e4741b
+C
+public/mention.html,9\4\946a21f3af7b1d30e6727f812219b7789b1d47b7
+E
+public/condition.html,b\e\be126ca6a4b03c4360a6f747a383eae8bba57d13
+I
+app/controllers/admin.php,6\7\6704cde23d8545b04272d028e7710a28d3d17769
+I
+app/views/admin_login.php,a\d\ad336a923c86d63704b2047e3bf43017c322af01
+N
+app/Models/admin_dashboard.php,5\1\51cd23ddee9d95b3c777410aebea4a31dc037ac3

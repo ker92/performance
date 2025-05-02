@@ -16,22 +16,26 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     if (!empty($_POST["email"]) && !empty($_POST["mot_de_passe"]) && !empty($_POST["categorie"])) {
         $email = htmlspecialchars($_POST["email"]);
         $mot_de_passe = password_hash($_POST["mot_de_passe"], PASSWORD_DEFAULT);
+        $categorie = htmlspecialchars($_POST["categorie"]);
         $date_abonnement = date("Y-m-d");
+        $statut = 'en_attente'; // ✅ Ajouté
 
-        $sql = "INSERT INTO abonnements (email, mot_de_passe, categorie, date_abonnement)
-                VALUES (:email, :mot_de_passe, :categorie, :date_abonnement)";
+        $sql = "INSERT INTO abonnements (email, mot_de_passe, categorie, date_abonnement, statut)
+                VALUES (:email, :mot_de_passe, :categorie, :date_abonnement, :statut)";
 
         $stmt = $pdo->prepare($sql);
         $stmt->execute([
             ':email' => $email,
             ':mot_de_passe' => $mot_de_passe,
             ':categorie' => $categorie,
-            ':date_abonnement' => $date_abonnement
+            ':date_abonnement' => $date_abonnement,
+            ':statut' => $statut // ✅ Ajouté
         ]);
 
-        echo " Abonnement enregistré avec succès !";
+        echo "Abonnement enregistré avec succès (en attente de validation) !";
     }
 }
+
 ?>
 
 

@@ -1,10 +1,15 @@
 
-kphp:S103-"KSplit this 185 characters long line (which is greater than 120 authorized).(¢ŞÅüÿÿÿÿ8ƒÎúºæ2
-fphp:S1030"KSplit this 127 characters long line (which is greater than 120 authorized).(áÅæÔ8ƒÎúºæ2
-kphp:S103="KSplit this 139 characters long line (which is greater than 120 authorized).(Çí÷ıÿÿÿÿ8„Îúºæ2
-kphp:S103Y"KSplit this 144 characters long line (which is greater than 120 authorized).(œ£‹òşÿÿÿÿ8†Îúºæ2
-fphp:S103["KSplit this 152 characters long line (which is greater than 120 authorized).(å×ª–8ğ’¾æ2
-ephp:S103\"KSplit this 132 characters long line (which is greater than 120 authorized).(˜”…H8½»“¾æ2
-gphp:S103–"KSplit this 143 characters long line (which is greater than 120 authorized).(¦ÇñÍ8†Îúºæ2
-fphp:S103°"KSplit this 167 characters long line (which is greater than 120 authorized).(²æ¡8àÓ—»æ2
-gphp:S103¸"KSplit this 141 characters long line (which is greater than 120 authorized).(ÌÄ‡8àÓ—»æ2
+SWeb:ImgWithoutAltCheck"%Add an "alt" attribute to this image.(©Ã»¶úÿÿÿÿ8ğ³ú³è2
+T	Web:S4084i"3Add subtitles and description files for this video.(˜ë±Êùÿÿÿÿ8ñ³ú³è2
+T	Web:S4084s"3Add subtitles and description files for this video.(˜ë±Êùÿÿÿÿ8ò³ú³è2
+U	Web:S4084˜"3Add subtitles and description files for this video.(˜ë±Êùÿÿÿÿ8ó³ú³è2
+fphp:S103	"KSplit this 130 characters long line (which is greater than 120 authorized).(ÒšºÅ8ˆ´ú³è2
+kphp:S103."KSplit this 185 characters long line (which is greater than 120 authorized).(¢ŞÅüÿÿÿÿ8‰´ú³è2
+fphp:S1031"KSplit this 127 characters long line (which is greater than 120 authorized).(áÅæÔ8‰´ú³è2
+kphp:S103>"KSplit this 139 characters long line (which is greater than 120 authorized).(Çí÷ıÿÿÿÿ8‰´ú³è2
+kphp:S103Z"KSplit this 144 characters long line (which is greater than 120 authorized).(œ£‹òşÿÿÿÿ8†Îúºæ2
+fphp:S103\"KSplit this 152 characters long line (which is greater than 120 authorized).(å×ª–8ğ’¾æ2
+ephp:S103]"KSplit this 132 characters long line (which is greater than 120 authorized).(˜”…H8½»“¾æ2
+gphp:S103—"KSplit this 143 characters long line (which is greater than 120 authorized).(¦ÇñÍ8†Îúºæ2
+fphp:S103±"KSplit this 167 characters long line (which is greater than 120 authorized).(²æ¡8àÓ—»æ2
+gphp:S103¹"KSplit this 141 characters long line (which is greater than 120 authorized).(ÌÄ‡8àÓ—»æ2
