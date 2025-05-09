@@ -1,8 +1,4 @@
 
-J
-public/includes/footer.php,c\6\c696665ae1dd8458af89eb15b55dffe2a3277d8c
-J
-public/includes/header.php,1\4\140df93de2002f3b93cf478498a3312d2dd8507e
 >
 public/U18.php,f\d\fd438ee360e9750c36f761ad46fef312d18902c2
 B
@@ -31,7 +27,11 @@ E
 public/condition.html,b\e\be126ca6a4b03c4360a6f747a383eae8bba57d13
 I
 app/controllers/admin.php,6\7\6704cde23d8545b04272d028e7710a28d3d17769
-I
-app/views/admin_login.php,a\d\ad336a923c86d63704b2047e3bf43017c322af01
-N
-app/Models/admin_dashboard.php,5\1\51cd23ddee9d95b3c777410aebea4a31dc037ac3
+S
+#app/controllers/admin_dashboard.php,b\c\bcf39bccb3186de23b414802fec5a67eb35bb47b
+R
+"app/controllers/admin_register.php,7\2\7272fb7f0334308f9c51a58a7b12ab7e713d75db
+4
+.env,3\c\3c84dcdc6bbe3d7817c49dcdc327b926fea1808a
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d

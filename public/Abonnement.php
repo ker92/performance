@@ -18,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $mot_de_passe = password_hash($_POST["mot_de_passe"], PASSWORD_DEFAULT);
         $categorie = htmlspecialchars($_POST["categorie"]);
         $date_abonnement = date("Y-m-d");
-        $statut = 'en_attente'; // ✅ Ajouté
+        $statut = 'en_attente';
 
         $sql = "INSERT INTO abonnements (email, mot_de_passe, categorie, date_abonnement, statut)
                 VALUES (:email, :mot_de_passe, :categorie, :date_abonnement, :statut)";
@@ -29,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             ':mot_de_passe' => $mot_de_passe,
             ':categorie' => $categorie,
             ':date_abonnement' => $date_abonnement,
-            ':statut' => $statut // ✅ Ajouté
+            ':statut' => $statut
         ]);
 
         echo "Abonnement enregistré avec succès (en attente de validation) !";
@@ -88,9 +88,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         <div class="footer-section">
             <h3>Catégorie</h3>
             <ul>
-                <li><a href="#cat">U6</a></li>
-                <li><a href="#cat">U18</a></li>
-                <li><a href="#cat">Séniors</a></li>
+                <li><a href="connexion.php">U6</a></li>
+                <li><a href="connexion.php">U18</a></li>
+                <li><a href="connexion.php">Séniors</a></li>
             </ul>
         </div>
         <div class="footer-section">
@@ -104,9 +104,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         <div class="footer-section">
             <h3>Légal</h3>
             <ul>
-                <li><a href="mentions.html">Mentions légales</a></li>
-                <li><a href="#">Conditions d'utilisation</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="mention.html">Mentions légales</a></li>
+                <li>Contact<br>
+                    Tel: +33 744878032<br>
+                    E-mail: keranthey02@gmail.com</li>
             </ul>
         </div>
     </div>

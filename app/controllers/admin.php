@@ -19,7 +19,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 }
 ?>
 
-<!-- HTML simple -->
 <!DOCTYPE html>
 <html lang="fr">
 <head>

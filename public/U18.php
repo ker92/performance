@@ -41,40 +41,39 @@
         </div>
         <nav class="navbar bg-body-tertiary">
             <div class="container-fluid">
-
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
+
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                                <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Thèmes</a>
-                            </li>
+
+
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Catégorie
                                 </a>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Connexion</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="connexion.php">U6</a></li>
+                                    <li><a class="dropdown-item" href="connexion.php">U18</a></li>
+                                    <li><a class="dropdown-item" href="connexion.php">Séniors</a></li>
+                                </ul>
                             </li>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                            </li>
-                        </ul>
 
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="connexion.php">Connexion</a>
+                            </li>
+
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -170,9 +169,9 @@
         <div class="footer-section">
             <h3>Catégorie</h3>
             <ul>
-                <li><a href="#cat">U6</a></li>
-                <li><a href="#cat">U18</a></li>
-                <li><a href="#cat">Séniors</a></li>
+                <li><a href="connexion.php">U6</a></li>
+                <li><a href="connexion.php">U18</a></li>
+                <li><a href="connexion.php">Séniors</a></li>
             </ul>
         </div>
         <div class="footer-section">
@@ -186,9 +185,10 @@
         <div class="footer-section">
             <h3>Légal</h3>
             <ul>
-                <li><a href="mentions.html">Mentions légales</a></li>
-                <li><a href="#">Conditions d'utilisation</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="mention.html">Mentions légales</a></li>
+                <li>Contact<br>
+                    Tel: +33 744878032<br>
+                    E-mail: keranthey02@gmail.com</li>
             </ul>
         </div>
     </div>
